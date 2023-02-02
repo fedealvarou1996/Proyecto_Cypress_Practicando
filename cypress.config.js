@@ -13,7 +13,8 @@ module.exports = defineConfig({
     "viewportWidth": 1500,
     "viewportHeight": 900,
     "pageLoadTimeout": 12000,
-    "defaultCommandTimeout": 9000
+    "defaultCommandTimeout": 9000,
+    "experimentalStudio": true
   },
   
 });
