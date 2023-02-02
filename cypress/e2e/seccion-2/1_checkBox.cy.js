@@ -6,6 +6,7 @@ describe("CheckBox", () =>{
         cy.visit("https://testingqarvn.com.es/prueba-de-campos-checkbox/");
         cy.title().should('eq','Prueba de campos Checkbox | TestingQaRvn')
         cy.get(".wsf-label").contains("PHP").click()
+        cy.screenshot()
     })
 
 }) //cierre del Describe
